@@ -1,0 +1,63 @@
+body{
+    margin: 20px;
+    /*FONTS using web safe fonts*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*changing size of image*/
+.image{
+    width:150px;
+}
+.image:hover{
+    background-color: cadetblue;
+}
+/*styling the card*/
+.card{
+    
+    padding:20px;
+    display: flex;
+    /*justifying items*/
+    justify-content:space-around;
+    /*center the card using margin*/
+    width: 400px;
+    /*margin-left: auto;
+    margin-right:auto; 
+    now using the shorthand*/
+    margin:0 auto;
+    /*center the text via inheritance*/
+    text-align:center;
+    /*adding colors to our card*/
+     background-color:#0FFFFF;
+    color:#006D6F;
+    border-bottom:5px solid #007fff;
+    
+
+
+}
+.utility{
+    border:1px dotted blue;
+} 
+/*css inheritance*/
+/*
+article {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:medium;
+font-style:italic;
+}
+ */
+ /*margin/padding shorthands
+ this is example of non-shorthand way
+ margin-top:40px;
+ margin-right: 0px;
+ margin-bottom: 4px;
+ margin-left:1px;
+ so pros write with shorthand ways
+ margin:40px 0px 4px 1px; tis is when the values are different if not margin:10px;
+ so the order is top right bottom left
+ what if top and bottom are the same and left and right are the same 
+ margin-top:10px;
+ margin-bottom: 10px;
+ margin-right: auto;
+ margin-left:auto;
+   therefore the shorthand is 
+   margin:10px auto;*/
